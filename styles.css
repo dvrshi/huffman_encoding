@@ -1,0 +1,85 @@
+body {
+    background-color: #5d5858;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#title h1 {
+    color: white;
+    font-size: 45px;
+    font-family: "DM Mono", monospace;
+}
+
+#textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#textarea {
+    width: 400px;
+    height: 150px;
+    padding: 5px 10px;
+    resize: none;
+    font-family: "Comic Neue", cursive;
+    font-size: large;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    flex-direction: column;
+}
+
+#upload1, #upload2 {
+    width: 100px;
+    height: fit-content;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0;
+    background-color: rgb(255, 205, 169);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#upload:hover {
+    background-color: rgb(173, 169, 255);
+
+}
+
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    padding: 10px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgb(27, 51, 204);
+    display: inline-block;
+
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: rgb(75, 14, 151);
+}
