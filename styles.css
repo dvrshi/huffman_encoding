@@ -42,7 +42,7 @@ body {
     flex-direction: column;
 }
 
-#upload1, #upload2 {
+#upload1, #upload2, #upload3 {
     width: 100px;
     height: fit-content;
     font-size: larger;

@@ -140,5 +140,6 @@ def write_file(encoded_bytes,reverse_mapping):
         file.write('\n')  
         for key, value in reverse_mapping.items():
             line = f"{key}:{value}\n"
-            file.write(line) 
+            file.write(line)
+
 
